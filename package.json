@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shivamparekh/bamazon/issues"
   },
-  "homepage": "https://github.com/shivamparekh/bamazon#readme"
+  "homepage": "https://github.com/shivamparekh/bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.8.0"
+  }
 }
