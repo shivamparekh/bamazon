@@ -37,6 +37,19 @@ function start() {
 			name: "item",
 			type: "input",
 			message: "Please enter the ID of the product you would like to buy?",
+			validate: function(value) {
+
+				if (!isNaN(value)) {
+
+					return true;
+
+				} else {
+
+					return('Please enter a valid ItemID');
+
+				}	
+
+			}
 			
 			}
 
@@ -45,6 +58,17 @@ function start() {
 			name: "units",
 			type: "input",
 			message: "How many units of the product they would like to buy",
+			validate: function(value) {
+
+				if (!isNaN(value)) {
+
+					return true;
+
+				} else {
+
+					return('Please enter a number');
+				}	
+			}	
 
 			}
 
