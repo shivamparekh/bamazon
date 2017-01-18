@@ -19,7 +19,8 @@ connection.connect(function(err) {
     if (err) throw err;
 
     console.log("connected as id " + connection.threadId);
-}
+
+});
 
 //fuction that runs right away. Shows table and asks initial prompts.
 
